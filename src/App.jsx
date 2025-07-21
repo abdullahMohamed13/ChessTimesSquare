@@ -12,22 +12,6 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 const Contact = lazy(() => import('./pages/Contact'));
 const NoPage = lazy(() => import('./pages/NoPage'));
 
-// if (document.documentElement.className === 'originalLight') {
-//   document.querySelector('meta[name="theme-color"]').content = '#f6f6f6';
-// } else if (document.documentElement.className === 'originalDark') {
-//   document.querySelector('meta[name="theme-color"]').content = '#121212';
-// } else if (document.documentElement.className === 'majesticLight') {
-//   document.querySelector('meta[name="theme-color"]').content = '#f7f3ec';
-// } else if (document.documentElement.className === 'majesticDark') {
-//   document.querySelector('meta[name="theme-color"]').content = '#252525';
-// } else if (document.documentElement.className === 'retroLight') {
-//   document.querySelector('meta[name="theme-color"]').content = '#f0f0f0';
-// } else if (document.documentElement.className === 'retroDark') {
-//   document.querySelector('meta[name="theme-color"]').content = '#222222';
-// } else {
-//   document.querySelector('meta[name="theme-color"]').content = '#000000';
-// }
-
 function AnimatedRoutes() {
   const location = useLocation();
 
