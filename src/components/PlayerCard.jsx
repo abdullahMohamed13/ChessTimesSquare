@@ -127,12 +127,14 @@ export default function PlayerCard({ isWhite, isCustomTime}){
                             <img
                                 src="../../chess.com.svg"
                                 alt="Chess.com Logo"
+                                title='Chess.com'
                                 className={`chess-com-logo ${playerSite === 'chess.com' ? 'selected-site' : ''}`}
                                 onClick={() => handleSiteSelection('chess.com')}
                             />
                             <img
                                 src="../../lichess.png"
                                 alt="Lichess Logo"
+                                title='Lichess'
                                 className={`lichess-logo ${playerSite === 'lichess' ? 'selected-site' : ''}`}
                                 onClick={() => handleSiteSelection('lichess')}
                             />
