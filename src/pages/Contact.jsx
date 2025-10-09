@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFacebook, FaGithub, FaEnvelope, FaChessKnight, FaDiscord } from "react-icons/fa";
+import { FaGithub, FaEnvelope, FaChessKnight, FaDiscord, FaLinkedin } from "react-icons/fa";
 import '../css/contact.css';
 
 export default function Contact() {
@@ -57,9 +57,9 @@ export default function Contact() {
                             <FaEnvelope className="icon" />
                             <span>Email</span>
                         </a>
-                        <a href="https://www.facebook.com/abdllaMohaamad" target="_blank" rel="noopener noreferrer" className="contact-item">
-                            <FaFacebook className="icon" />
-                            <span>Facebook</span>
+                        <a href="https://linkedin.com/in/abdallah-m-aziz" target="_blank" rel="noopener noreferrer" className="contact-item">
+                            <FaLinkedin className="icon" />
+                            <span>LinkedIn</span>
                         </a>
                         <a href="https://github.com/abdullahMohamed13" target="_blank" rel="noopener noreferrer" className="contact-item">
                             <FaGithub className="icon" />
