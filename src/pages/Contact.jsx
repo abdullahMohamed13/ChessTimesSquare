@@ -44,7 +44,7 @@ export default function Contact() {
                             Chess.com
                         </a>
                         <a href="https://lichess.org/@/Abdallah138" target="_blank" rel="noopener noreferrer">
-                            <img src="../../lichess.svg" alt="Lichess" />
+                            <img src="../../lichess.png" alt="Lichess" />
                             Lichess
                         </a>
                     </div>
