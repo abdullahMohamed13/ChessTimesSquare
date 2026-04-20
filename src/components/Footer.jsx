@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="site-footer">
       <p>
-        &copy; {new Date().getFullYear()} — <span>chessTimesSquare</span> — Built by Abdallah Aziz 
+        &copy; 2025 — <span>chessTimesSquare</span> — Built by Abdallah Aziz 
       </p>
       <div className="donation-section">
             <a
