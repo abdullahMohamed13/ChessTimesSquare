@@ -8,7 +8,7 @@ import Home from './pages/Home';
 import Footer from './components/Footer.jsx';
 import NavBar from './components/NavBar.jsx';
 
-const Dashboard = lazy(() => import('./pages/Dashboard'));
+const MatchResults = lazy(() => import('./pages/MatchResults'));
 const Contact = lazy(() => import('./pages/Contact'));
 const NoPage = lazy(() => import('./pages/NoPage'));
 
@@ -27,7 +27,7 @@ function AnimatedRoutes() {
                 <Suspense fallback={<div className="loading">Loading</div>}>
                     <Routes location={location} key={location.pathname}>
                     <Route path="/" element={<Home />} />
-                    <Route path="/dashboard" element={<Dashboard />} />
+                    <Route path="/results" element={<MatchResults />} />
                     <Route path="/contact" element={<Contact />} />
                     <Route path="*" element={<NoPage />} />
                     </Routes>

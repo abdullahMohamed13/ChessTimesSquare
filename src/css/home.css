@@ -66,6 +66,15 @@ html {
 .guideline-heading {
   font-size: 1.15rem;
   margin: 0;
+  padding: 15px 20px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  user-select: none;
+  transition: background-color 0.2s ease;
 }
 .guideline-heading:hover {
   background-color: rgba(0, 0, 0, 0.05);
@@ -83,18 +92,6 @@ html {
 
 .guideline-heading .arrow.down {
   transform: rotate(0deg);
-}
-
-.guideline-heading {
-  padding: 15px 20px;
-  color: var(--secondary-color);
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-weight: bold;
-  user-select: none;
-  transition: background-color 0.2s ease;
 }
 
 .guideline-content {
